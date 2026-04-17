@@ -1,0 +1,124 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css new practise</title>
+    <style>
+        .pole {
+            height: 300px;
+            width: 130px;
+            background-color: black;
+            border-radius: 80px;
+            margin: auto;
+            padding-top: 5px;
+        }
+
+        .red, .yellow, .green {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            margin: auto;
+            opacity: 0.5;
+            transition: 2s;
+            transform: scale(0.8);
+            margin-top: 30px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .red:hover, .yellow:hover, .green:hover {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .kambha {
+            height: 50px;
+            width: 50px;
+            background-color: black;
+            margin: auto;
+            margin-top: -10px;
+        }
+
+        button {
+            border-radius: 10px;
+            background-color: silver;
+            border: solid transparent;
+            color: rgb(0, 0, 0);
+            width: 50px;
+            height: 25px;
+            float: right;
+            cursor: pointer;
+        }
+
+        .active {
+            opacity: 1;
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="pole">
+            <div class="red" id="red"></div>
+            <div class="yellow" id="yellow"></div>
+            <div class="green" id="green"></div>
+        </div>
+        <div class="kambha"></div>
+        <button id="controlBtn">Start</button>
+    </div>
+    <script>
+        const red = document.getElementById('red');
+        const yellow = document.getElementById('yellow');
+        const green = document.getElementById('green');
+        const button = document.getElementById('controlBtn');
+        let intervalId;
+        let currentLight = 0; // 0: red, 1: green, 2: yellow
+        let isRunning = false;
+
+        
+        function cycleLights() {
+            // Remove active from all
+            red.classList.remove('active');
+            yellow.classList.remove('active');
+            green.classList.remove('active');
+
+            // Add active to current
+            if (currentLight === 0) red.classList.add('active');
+            else if (currentLight === 1) green.classList.add('active');
+            else yellow.classList.add('active');
+
+            // Next light
+            currentLight = (currentLight + 1) % 3;
+        }
+
+        button.addEventListener('click', () => {
+            if (isRunning) {
+                clearInterval(intervalId);
+                button.textContent = 'Start';
+                isRunning = false;
+                // Turn off all lights
+                red.classList.remove('active');
+                yellow.classList.remove('active');
+                green.classList.remove('active');
+            } else {
+                intervalId = setInterval(cycleLights, 2000); // Change every 2 seconds
+                button.textContent = 'Stop';
+                isRunning = true;
+            }
+        });
+    </script>
+</body>
+</html>
+```

@@ -1,0 +1,72 @@
+body{
+    border: 2px solid navy;
+    padding: 10px;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: rgb(0, 107, 107);
+    text-decoration-thickness: 2.5px;
+    text-decoration-style: solid;
+}
+
+.para{
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-family: calibri;
+}
+
+.boy{
+    color: blue;
+    font-size: 30px ;
+}
+
+img{
+    vertical-align: top;
+    border-radius: 50%;
+}
+
+.make{
+    font-size: 50px;
+    font-family: calibri;
+    letter-spacing: 1.5px;
+    color: lightgray;
+}
+
+.M{
+    display: inline-block;
+    transition: 1s all;
+
+}
+
+.M:hover{
+    color: rgb(0, 225, 255);
+    transform: translate(10px);
+    transition-duration: 1
+}
+
+.A{
+    display: inline-block;
+    transition: 1s all;
+    transition-duration: 10s
+}
+
+.A:hover{
+    color: rgb(144, 0, 255);
+     transform: translate(-10px);
+     transition-duration: 10s;
+    
+}
+
+.K:hover{
+    color: orangered;
+    transition-duration: 2s
+}
+
+.E:hover{
+    color: brown;
+    transition-duration: 10s
+}

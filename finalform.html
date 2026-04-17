@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Form</title>
+    <style>
+        form{
+            color: green;
+            
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Form</h1></legend>
+        <form action="https://www.youtube.com/results?">
+            <label for="user">Enter Patient Name:</label>
+            <input type="text" placeholder="enter patient name" id="user"><br><br>
+            <label for="age"> Enter your age: </label>
+            <input type="number" placeholder="enter your age" id="age"><br><br>
+            <label for="email">Enter your email:</label>
+         <input type="email" placeholder="email" id="email"><br><br>
+            Appointment type (red(E), yellow(SE), green(R)): <input type="color">
+            <!-- <h3>Patient category: </h3>
+            Infant <input type="checkbox" name="age">Adolscent <input type="checkbox" name="age">Adult <input type="checkbox" name="age">
+            Senior Citizen <input type="checkbox" name="age"> -->
+
+            <h3>Patient category: </h3>
+            <label for="Infant">Infant</label>
+            <input type="radio" name="age">Adolscent <input type="radio" name="age">Adult <input type="radio" name="age">
+            Senior Citizen <input type="radio" name="age">
+            <br><br>
+
+            <h2>Search Query</h2>
+            <label for="youTube"><h2 style="display: inline-block;">Search on Youtube:</h2> </label>
+             <input type="text" placeholder="search on YouTube" name="search_query" style="height: 30px; width: 500px;" id="youTube">
+            <button>Submit</button>
+        </form>
+        <hr>
+        <form action="https://www.google.com/search?">
+            <h2 style="display: inline-block;">Search on Google:</h2> <input type="text" placeholder="search on Google" name="q" style="height: 30px; width: 500px;">
+            <button>Submit</button>
+       
+        </form>
+    </fieldset>
+    
+</body>
+</html>

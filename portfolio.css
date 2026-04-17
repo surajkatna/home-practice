@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+}
+
+.main{
+    background-image: url(images/portfolio\ bg.jpeg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    padding-top: 25px;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+    width: 500px;
+    border: 0.5px solid rgb(92, 249, 142);
+    border-radius: 25px;
+    background-color: #04110a;
+    color: rgb(92, 249, 142);
+    box-shadow: 0 0 10px rgba(92, 249, 142, 0.4);
+    margin: auto;
+}
+
+.nav p {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.nav {
+    box-shadow: 0 0 10px rgba(92, 249, 142, 0.4);
+}

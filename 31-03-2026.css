@@ -1,0 +1,23 @@
+.hash{
+    color: blue;
+    background-color: yellow;
+}
+#tag{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    font-family: calibri;
+}
+.star{
+    color: green;
+    background-color: yellow;
+    font-size: 18px;
+    text-align: center;
+}
+.dot{
+    color: aqua;
+    background-color: rgb(16, 16, 16);
+    text-transform: capitalize;
+    text-align: justify;
+    
+}

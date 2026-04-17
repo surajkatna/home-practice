@@ -1,0 +1,212 @@
+.clock{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: aqua;
+    margin: auto;
+    margin-top: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.point{
+    height: 15px;
+    width: 15px;
+    border: solid black;
+    background-color: black;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 50%;
+}
+
+.seconds{
+    height: 220px;
+    width: 5px;
+    background-color: black;
+    margin-left: 4px;
+    margin-top: -210px;
+    animation-name: seconds;
+    animation-duration: 60s;
+    transform-origin: bottom center;
+    animation-iteration-count: infinite;
+}
+
+@keyframes seconds{
+    from{
+        transform: rotate(0deg);
+    }
+    
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.smallclock{
+    height: 100px;
+    width: 100px;
+    border: solid black;
+    border-radius: 50%;
+    transform: translateY(40px) translateX(45px);
+    background-color: brown;
+
+}
+
+.smallpoint{
+    height: 2px;
+    width: 2px;
+    border: solid transparent;
+    background-color: rgb(189, 248, 13);
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 50%;
+
+}
+
+.ms{
+    height: 40px;
+    width: 1px;
+    position:absolute;
+    bottom: 50%;
+    background-color: white; transform-origin: bottom center;
+    animation-name: ms;
+    animation-duration: 1s;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes ms{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.boxbp{    
+    height: 100px;
+    width: 100px;
+    border: solid;
+    position: absolute;
+    border-radius: 50%;
+    background-color: aliceblue;
+    bottom: 55%;
+    right: 70%;
+}
+.heart{
+    height: 15px;
+    width: 15px;
+    color: red;
+    position: absolute;
+    bottom: auto;
+    padding: 25%;
+    animation-name: heart;
+    animation-delay: none;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes heart{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+    
+}
+.span{
+    color: red;
+    text-decoration: line-through;
+    margin-left: 10px;
+    padding-top: 50%;
+}
+
+.item1{
+    transform: translateY(-350px);
+    font-size:larger;
+}
+
+.item2{
+    transform: translateX(230px) translateY(-150px);
+     font-size:larger;
+}
+.item3{
+     transform: translateY(35px);
+     font-size:larger;
+}
+.item4{
+    transform: translateX(-230px) translateY(-205px);
+     font-size:larger;
+}
+
+.roman1{
+    height: 8px;
+    width: 2px;
+    border: solid black;
+    background-color: black;
+    transform: translateY(-37px);
+}
+
+.roman2{
+    height: 8px;
+    width: 2px;
+    border: solid black;
+    background-color: black;
+    transform: rotate(90deg) translate(-20px) translateY(-20px);
+
+}
+    
+
+.roman3{
+   height: 8px;
+   width: 2px;
+   border: solid black;
+   background-color: black;
+   transform: translateY(-3px)
+}
+
+.roman4{
+    height: 8px;
+    width: 2px;
+    border: solid black;
+    background-color: black;
+    transform: rotate(90deg)translateY(15px) translateX(-25px); 
+}
+
+.pendulam{
+    height: 200px;
+    width: 25px;
+    background-color: black;
+    margin: auto;
+    border-radius: 10%;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);transform-origin: top;
+    animation-name: pendulam;
+    animation-duration: 2s; 
+    animation-delay: 0s;
+    animation-direction: alternate; 
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in-out;  */
+}
+
+@keyframes pendulam {
+    from{
+        transform: translateX(-50%) rotate(20deg);
+    }
+    to{
+        transform: translateX(-50%) rotate(-20deg);
+    }
+}
+
+.minutes{
+    height: 300px;
+    width: 4px;
+    border: solid black;
+    background-color: black;
+}

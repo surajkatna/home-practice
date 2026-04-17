@@ -1,0 +1,36 @@
+h2 {
+    color: red;
+   }
+   ul{
+    color: grey;
+   }
+   ol{
+    color: brown;
+   }
+   button{
+    color: blue;
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: 2px;
+}
+h3{
+    color: white;
+}
+ input::placeholder {
+    color: rgb(56, 54, 54);
+
+ }
+ input{
+    background-color: grey;
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px;
+    display: block;
+    margin: 0px;
+ }
+button{
+    display: block;
+    margin: auto ;
+}

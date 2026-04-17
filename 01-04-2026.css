@@ -1,0 +1,86 @@
+.box {
+  display: inline-block;
+  background-color: black;
+  margin-left: 50px;
+  height: 50px;
+  border: 2px;
+  padding-top: 50px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  opacity: 1.2;
+}
+
+.hotstar {
+  color: blue;
+  transform:scale(0.9);
+  tra-origin: 2px;
+  opacity: 0.5;
+}
+.traffic{
+    height: 300px;
+    width: 130px;
+    border: 1px solid transparent;
+    background-color: black;
+    border-radius: 85px;
+    margin: auto;
+}
+
+
+.red{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 35px;
+    opacity: 0.5;
+    transition: 1s;
+    transition-delay: 1ms;
+}
+.red:hover{
+    opacity: 03;
+    transform: scale(1.1);
+}
+
+
+.green{
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 35px;
+    opacity: 0.5;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.green:hover{
+    opacity: 03;
+    transform: scale(1.1);
+}
+.yellow{
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 35px;
+    opacity: 0.5;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.yellow:hover{
+    opacity: 03;
+    transform: scale(1.1);
+}
+.line{
+    height: 400px;
+    width: 40px;
+    background-color: black;
+    margin: auto;
+}
+.line:hover{
+    transform: scale(0.5);
+}

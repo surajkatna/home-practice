@@ -1,0 +1,46 @@
+.static{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(243, 184, 108);
+    position: static; 
+    /* By Default position is static */
+    top: 100px;
+}
+
+.relative{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(118, 39, 2);
+    margin-top: 100px;
+    position: relative;
+    /* Position "relative" means to change its position from its origional place where it is being created or placed by defaultly.
+    It reserved its origional place through which none can be create over there.
+    */
+    top: 1500px;
+    left: 100px;
+}
+
+
+
+.absolute{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(234, 0, 125);
+    position: absolute;
+    /* Position "absolute" means to change its position from its Parent element. (body)
+    It does not reserve its origional place through which anything can be create over there.
+    */
+    top: 130px;
+}
+
+
+.fixed{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(0, 101, 234);
+    position: fixed;
+    /* Position "absolute" means to change its position from its Parent element. (body)
+    It does not reserve its origional place through which anything can be create over there.
+    */
+    top: 120px;
+}

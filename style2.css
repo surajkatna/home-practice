@@ -1,0 +1,17 @@
+p{
+    color: rgb(36, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(147, 217, 25);
+}
+#great{
+    background-color: aqua;
+    display: inline;
+    float:right;
+}
+.stay{
+    color: rgb(237, 138, 8);
+}
+#gg{
+    color: rgb(225, 57, 57);
+    display: inline;
+}

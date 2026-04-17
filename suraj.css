@@ -1,0 +1,79 @@
+.traffic{
+    height: 300px;
+    width: 130px;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 85px;
+    margin: auto;  
+    transition: 1s;
+}
+/* .traffic:hover .red { */
+    opacity: 1;
+}
+
+.red{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 35px;
+    opacity: 0.5;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.red:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.yellow{
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 35px;
+    opacity: 0.5;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.yellow:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+.green{
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 35px;
+    opacity: 0.5;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.green:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
+.support{
+    height: 400px;
+    width: 60px;
+    background-color: black;
+    margin: auto;
+
+}
+.button{
+    height: 40px;
+    width: 40px;
+    background-color: silver;
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: 50%;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.button:hover{
+    transform: scale(0.5);
+}

@@ -1,0 +1,42 @@
+.box{
+    margin: 100px;
+}
+
+.item1{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    transform: rotate(330deg);
+}
+
+.item2{
+    margin-top: 100px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    transform: scale(0.9);
+}
+
+.item3{
+    margin-top: 100px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(11, 130, 9);
+    transform: skew(30deg);
+}
+
+.item4{
+    margin-top: 100px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(11, 130, 9);
+    transform: translateY(100px) translateX(100px);   
+}
+
+.item5{
+    margin-top: 200px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(238, 0, 255);
+    transform: rotate(15deg) scale(1.5) skew(45deg) translate(25px);
+}

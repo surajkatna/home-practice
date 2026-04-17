@@ -1,0 +1,28 @@
+h1{
+    color: red;
+    background-color: aliceblue;
+}
+
+h2{
+    color: blue;
+    background-color: white !important;
+}
+
+p{
+    color: green;
+}
+
+.ani{
+    color: brown;
+}
+
+h2{
+    color: darkgoldenrod;
+}
+
+#ani{
+    color: yellow;
+}
+#star{
+    color: black;
+}

@@ -1,0 +1,48 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.item1{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(205, 50, 50);
+    border: 1px solid black;
+    
+}
+
+.item2{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(255, 251, 8);
+    border: 1px solid black;
+    
+}
+
+.item3{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(255, 0, 200);
+    border: 1px solid black;
+    flex-shrink: 5;
+}
+
+.item4{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(0, 255, 208);
+    border: 1px solid rgb(12, 255, 126);
+
+}
+
+.item5{
+    height: 60px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    
+}
